@@ -11,7 +11,7 @@ class HomeController {
     }
 
     def returnTransactionDetail() {
-        println "returnTransactionDetail..........................\n response: ${response.dump()}, params: ${params.dump()}"
+        println "returnTransactionDetail..................\n response: ${response.dump()}, params: ${params.dump()}"
         render("success returnTransactionDetail")
         return
     }
